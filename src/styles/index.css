@@ -5,6 +5,11 @@
   src: url('../assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  src: url('../assets/fonts/SourceSansPro-Light.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -38,6 +43,15 @@ body {
 
 .banner-stripe {
   margin: auto;
+}
+
+.banner-stripe p:first-child {
+  font-size: 38px;
+}
+
+.banner-stripe p:last-child {
+  font-size: 26px;
+  font-family: 'Source Sans Pro Light', sans-serif;
 }
 
 .banner-arrow {
