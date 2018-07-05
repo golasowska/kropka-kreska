@@ -9,7 +9,7 @@ const TextBanner = () => {
         <div className="row">
           <div className="col col-md-7 banner-stripe">
             <p>Studio projektowania</p>
-            <p>
+            <p className="header-text-descr">
               pomieszczeń mieszkalnych, biurowych <br /> i użyteczności
               publicznej.
             </p>

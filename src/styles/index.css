@@ -18,6 +18,18 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* FONTS STYLES */
+
+.header-text {
+  font-size: 48px;
+  font-family: 'Source Sans Pro Light', sans-serif;
+}
+
+.header-text-descr {
+  font-size: 26px;
+  font-family: 'Source Sans Pro Light', sans-serif;
+}
+
 /* HEADER */
 
 .banner {
@@ -49,13 +61,38 @@ body {
   font-size: 38px;
 }
 
-.banner-stripe p:last-child {
-  font-size: 26px;
-  font-family: 'Source Sans Pro Light', sans-serif;
-}
-
 .banner-arrow {
   justify-content: center;
   padding-top: 208px;
   padding-bottom: 40px;
+}
+
+/* ABOUT */
+
+.about {
+  background: rgba(205, 202, 192, 0.13);
+  position: relative;
+}
+
+.img-about {
+  background-image: url('../assets/image-about.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41%;
+  height: 100%;
+}
+
+.about-descr {
+  margin-left: 50%;
+}
+
+/* FOOTER */
+
+.logo-media {
+  margin-left: 40px;
+  margin-right: 40px;
 }
