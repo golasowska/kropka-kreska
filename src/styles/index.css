@@ -90,6 +90,13 @@ body {
   margin-left: 50%;
 }
 
+/* GALLERY */
+
+.photo-gallery {
+  height: 100%;
+  max-height: 90vh;
+}
+
 /* FOOTER */
 
 .logo-media {
