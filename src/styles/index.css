@@ -92,15 +92,34 @@ body {
 
 /* GALLERY */
 
+.carousel.carousel-slider .control-arrow.control-next::before {
+  border-left: 8px solid #333030;
+}
+
+.carousel.carousel-slider .control-arrow.control-prev::before {
+  border-right: 8px solid #333030;
+}
+
 .carousel.carousel-slider {
   max-height: 90vh;
+}
+
+.img-carousel {
+  max-height: 90vh;
+  width: auto;
+  max-width: 95%;
+}
+
+.carousel .slide img.img-carousel {
+  width: auto;
 }
 
 .carousel .slider-wrapper.axis-horizontal .slider .slide {
   background: #fff;
 }
 
-.carousel.carousel-slider .control-arrow.control-next:hover {
+.carousel.carousel-slider .control-arrow.control-next:hover,
+.carousel.carousel-slider .control-arrow.control-prev:hover {
   background: transparent;
 }
 

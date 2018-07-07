@@ -11,7 +11,7 @@ class Realisations extends Component {
         return (
           <div key={photo}>
             <p>{item.title}</p>
-            <img src={photo} alt="gallery-project" />
+            <img className="img-carousel" src={photo} alt="gallery-project" />
           </div>
         );
       });
