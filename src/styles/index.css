@@ -92,9 +92,16 @@ body {
 
 /* GALLERY */
 
-.photo-gallery {
-  height: 100%;
+.carousel.carousel-slider {
   max-height: 90vh;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  background: #fff;
+}
+
+.carousel.carousel-slider .control-arrow.control-next:hover {
+  background: transparent;
 }
 
 /* FOOTER */

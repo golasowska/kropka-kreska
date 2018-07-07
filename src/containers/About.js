@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import imageAbout from '../assets/image-about.png';
-
 class About extends Component {
   renderAbout = () => {
     return this.props.about.map(item => {

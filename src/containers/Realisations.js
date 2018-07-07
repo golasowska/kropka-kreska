@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 class Realisations extends Component {
   renderGallery = () => {
     return this.props.projectsList.map(item => {
       return item.photos.map(photo => {
         return (
-          <img
-            key={photo}
-            className="img-fluid col col-md-10 photo-gallery"
-            src={photo}
-            alt="gallery-project"
-          />
+          <div key={photo}>
+            <p>{item.title}</p>
+            <img src={photo} alt="gallery-project" />
+          </div>
         );
       });
     });
@@ -33,7 +34,18 @@ class Realisations extends Component {
         <div className="row text-center">
           <p className="col col-md-12 header-text">Realizacje</p>
         </div>
-        <div className="row justify-content-center">{this.renderGallery()}</div>
+        <div className="col-md-12 m-auto">
+          <Carousel
+            showArrows={true}
+            showStatus={false}
+            showIndicators={false}
+            showThumbs={false}
+            infiniteLoop={true}
+            dynamicHeight={true}
+          >
+            {this.renderGallery()}
+          </Carousel>
+        </div>
         <div className="row">{this.renderProjects()}</div>
       </div>
     );
