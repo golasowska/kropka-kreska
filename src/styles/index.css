@@ -198,3 +198,32 @@ body {
 .logo-media {
   margin: 80px 40px;
 }
+
+/* RWD */
+
+.navbar-light .navbar-toggler {
+  background: #6c6c6d;
+  border-radius: 50%;
+  color: #fff;
+  border-color: #6c6c6d;
+}
+
+.navbar-light .navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url(../assets/toogler-icon.png);
+}
+
+.navbar-toggler {
+  padding: 8px;
+  font-size: 0;
+}
+
+@media (max-width: 767px) {
+  .img-about {
+    display: none;
+  }
+  .about-descr {
+    margin-left: 0;
+  }
+}

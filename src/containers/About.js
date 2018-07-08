@@ -5,7 +5,7 @@ class About extends Component {
   renderAbout = () => {
     return this.props.about.map(item => {
       return (
-        <div key={item.title} className="col col-md-6">
+        <div key={item.title} className="col-md-6">
           <img
             className="graphic-icon"
             src={item.src}
@@ -25,7 +25,7 @@ class About extends Component {
         <div className="img-about" />
         <div className="container">
           <div className="row about-descr">
-            <div className="col col-md-12">
+            <div className="col-md-12">
               <p className="header-text">O mnie</p>
               <p className="header-text-descr">
                 Otwarta na nowe wyzwania projektowe jako architekt wnętrz,

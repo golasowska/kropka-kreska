@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-light navbar-expand-lg">
+    <nav className="navbar navbar-light navbar-expand-md">
       <div className="navbar-brand">
         <img src={logo} width="70" height="70" alt="kropka-kreska" />
       </div>
