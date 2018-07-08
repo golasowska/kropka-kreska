@@ -10,7 +10,7 @@ class Realisations extends Component {
       return item.photos.map(photo => {
         return (
           <div key={photo}>
-            <p>{item.title}</p>
+            <p className="header-text-descr">{item.title}</p>
             <img className="img-carousel" src={photo} alt="gallery-project" />
           </div>
         );
@@ -20,10 +20,10 @@ class Realisations extends Component {
   renderProjects = () => {
     return this.props.projectsList.map(item => {
       return (
-        <div key={item.title} className="col col-md-3 text-center">
+        <div key={item.title} className="col-md-3 text-center">
           <img className="img-fluid" src={item.src} alt="icon-projects" />
-          <p>{item.title}</p>
-          <p>{item.descr}</p>
+          <p className="icon-text-header">{item.title}</p>
+          <p className="icon-text-descr">{item.descr}</p>
         </div>
       );
     });
@@ -46,7 +46,7 @@ class Realisations extends Component {
             {this.renderGallery()}
           </Carousel>
         </div>
-        <div className="row">{this.renderProjects()}</div>
+        <div className="row projects-thumbs">{this.renderProjects()}</div>
       </div>
     );
   }

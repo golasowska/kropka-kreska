@@ -10,12 +10,18 @@
   src: url('../assets/fonts/SourceSansPro-Light.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Source Sans Pro SemiBold';
+  src: url('../assets/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #000;
+  color: #100102;
   font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1;
 }
 
 /* FONTS STYLES */
@@ -23,11 +29,26 @@ body {
 .header-text {
   font-size: 48px;
   font-family: 'Source Sans Pro Light', sans-serif;
+  margin-top: 100px;
 }
 
 .header-text-descr {
   font-size: 26px;
   font-family: 'Source Sans Pro Light', sans-serif;
+}
+
+.icon-text-header {
+  font-size: 18px;
+  font-family: 'Source Sans Pro SemiBold', sans-serif;
+  margin-top: 16px;
+}
+
+.icon-text-descr {
+  font-size: 18px;
+}
+
+.graphic-icon {
+  margin-top: 36px;
 }
 
 /* HEADER */
@@ -40,8 +61,32 @@ body {
   z-index: -100;
 }
 
-.nav-item {
-  font-size: 18px;
+.navbar-light .navbar-nav .nav-link {
+  border-bottom: 2px solid transparent;
+  padding: 15px 0;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #100102;
+  font-size: 20px;
+  font-family: 'Source Sans Pro Light', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-item:nth-child(1) .nav-link:focus,
+.navbar-light .navbar-nav .nav-item:nth-child(1) .nav-link:hover,
+.navbar-light .navbar-nav .nav-item:nth-child(2) .nav-link:focus,
+.navbar-light .navbar-nav .nav-item:nth-child(2) .nav-link:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-item:last-child {
+  background: #fff;
+  border-radius: 45px;
+}
+
+.navbar-light .navbar-nav .nav-item:last-child:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .banner-text-bg {
@@ -69,7 +114,7 @@ body {
 
 /* ABOUT */
 
-.about {
+.bg-color {
   background: rgba(205, 202, 192, 0.13);
   position: relative;
 }
@@ -88,6 +133,10 @@ body {
 
 .about-descr {
   margin-left: 50%;
+}
+
+.row-icons {
+  padding-bottom: 100px;
 }
 
 /* GALLERY */
@@ -123,9 +172,29 @@ body {
   background: transparent;
 }
 
+.projects-thumbs {
+  margin-top: 36px;
+}
+
 /* FOOTER */
 
+.c-contact {
+  font-size: 26px;
+  font-family: 'Source Sans Pro Light', sans-serif;
+  margin-top: 100px;
+}
+
+.c-phone {
+  font-size: 48px;
+  font-family: 'Source Sans Pro Light', sans-serif;
+}
+
+.c-mail {
+  font-size: 48px;
+  font-family: 'Source Sans Pro Light', sans-serif;
+  margin-bottom: 0;
+}
+
 .logo-media {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 80px 40px;
 }
