@@ -22,6 +22,9 @@ body {
   color: #100102;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1;
+  overflow-x: hidden !important;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 /* FONTS STYLES */
@@ -172,6 +175,10 @@ body {
   background: transparent;
 }
 
+.slider-animated {
+  overflow-x: hidden;
+}
+
 .projects-thumbs {
   margin-top: 36px;
 }
@@ -220,10 +227,89 @@ body {
 }
 
 @media (max-width: 767px) {
+  .navbar-brand {
+    visibility: hidden;
+  }
+
+  .logo-banner {
+    position: absolute;
+    top: 96px;
+    left: 0;
+    right: 0;
+  }
+
+  .banner-text-bg {
+    margin-top: 170px;
+    padding-bottom: 100px;
+    height: 100%;
+  }
+
+  .banner-stripe p:first-child {
+    padding-top: 320px;
+  }
+
+  .banner-stripe p:last-child {
+    padding-bottom: 40px;
+  }
+
+  .banner-arrow {
+    display: none;
+  }
+
   .img-about {
     display: none;
   }
+
   .about-descr {
     margin-left: 0;
+    text-align: center;
   }
+
+  .header-text {
+    margin-top: 50px;
+  }
+
+  .row-icons {
+    padding-bottom: 50px;
+  }
+
+  .projects-thumbs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-thumbs > div {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-bottom: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 258px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* #realisations div:nth-child(2) {
+    display: none;
+  } */
+
+  .c-contact {
+    margin-top: 50px;
+    font-size: 48px;
+  }
+
+  .c-mail {
+    font-size: 26px;
+  }
+
+  .logo-media {
+    margin: 40px 40px 20px 40px;
+  }
+}
+
+body {
+  overflow-x: hidden !important;
+  white-space: normal;
+  word-wrap: break-word;
 }

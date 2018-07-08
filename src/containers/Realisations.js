@@ -34,7 +34,7 @@ class Realisations extends Component {
         <div className="row text-center">
           <p className="col col-md-12 header-text">Realizacje</p>
         </div>
-        <div className="col-md-12 m-auto">
+        <div className="col-md-12">
           <Carousel
             showArrows={true}
             showStatus={false}

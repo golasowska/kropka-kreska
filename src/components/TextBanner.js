@@ -14,7 +14,7 @@ const TextBanner = () => {
               publicznej.
             </p>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 logo-banner">
             <img className="img-fluid" src={logo} alt="kropka-kreska" />
           </div>
         </div>
