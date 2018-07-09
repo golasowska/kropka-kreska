@@ -33,7 +33,7 @@ export default function() {
     {
       src: `${zielonka}`,
       title: 'Zielonka',
-      descr: 'Projekt restauracji wraz z małą biblioteką w przestrezni parku',
+      descr: 'Projekt restauracji wraz z małą biblioteką w przestrzeni parku',
       photos: [`${zielonka1}`, `${zielonka2}`, `${zielonka3}`, `${zielonka4}`]
     },
     {

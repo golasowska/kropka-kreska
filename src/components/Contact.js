@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
         <div className="row justify-content-center">
           <a
-            href="https://facebook.com/"
+            href="https://www.facebook.com/Kropka-i-Kreska-1581712921951974/?ref=br_rs"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +27,7 @@ const Contact = () => {
             />
           </a>
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/wnetrza_kropka_i_kreska/"
             target="_blank"
             rel="noopener noreferrer"
           >
