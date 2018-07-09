@@ -231,9 +231,13 @@ body {
     visibility: hidden;
   }
 
+  .navbar-light .navbar-nav .nav-item:last-child {
+    background: transparent;
+  }
+
   .logo-banner {
     position: absolute;
-    top: 96px;
+    top: -171px;
     left: 0;
     right: 0;
   }
@@ -242,6 +246,7 @@ body {
     margin-top: 170px;
     padding-bottom: 100px;
     height: 100%;
+    position: relative;
   }
 
   .banner-stripe p:first-child {
@@ -286,8 +291,8 @@ body {
     width: 258px;
     padding-left: 0;
     padding-right: 0;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /* #realisations div:nth-child(2) {
