@@ -231,6 +231,13 @@ body {
     visibility: hidden;
   }
 
+  .navbar-light .navbar-nav .nav-item:nth-child(1) .nav-link:focus,
+  .navbar-light .navbar-nav .nav-item:nth-child(1) .nav-link:hover,
+  .navbar-light .navbar-nav .nav-item:nth-child(2) .nav-link:focus,
+  .navbar-light .navbar-nav .nav-item:nth-child(2) .nav-link:hover {
+    border-bottom: 0px solid transparent;
+  }
+
   .navbar-light .navbar-nav .nav-item:last-child {
     background: transparent;
   }
@@ -244,7 +251,6 @@ body {
 
   .banner-text-bg {
     margin-top: 170px;
-    padding-bottom: 100px;
     height: 100%;
     position: relative;
   }
@@ -258,7 +264,8 @@ body {
   }
 
   .banner-arrow {
-    display: none;
+    visibility: hidden;
+    padding-top: 100px;
   }
 
   .img-about {
@@ -310,9 +317,27 @@ body {
 }
 
 @media (max-width: 575px) {
+  .icon-text-descr {
+    color: #303030;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .logo-banner {
+    top: -23vw;
     padding-left: 20%;
     padding-right: 20%;
+  }
+
+  .banner-stripe p:first-child {
+    padding-top: 44vw;
+  }
+
+  .banner-text-bg {
+    margin-top: 100px;
+  }
+
+  .banner-arrow {
+    padding-top: 15vw;
   }
 
   .projects-thumbs > div {
@@ -326,6 +351,44 @@ body {
 }
 
 @media (max-width: 469px) {
+  .header-text {
+    font-size: 24px;
+  }
+  .header-text-descr {
+    font-size: 16px;
+  }
+
+  .icon-text-descr {
+    font-size: 18px;
+  }
+  .banner-text-bg {
+    margin-top: 20vw;
+  }
+
+  .banner-stripe p:first-child {
+    font-size: 28px;
+  }
+  .banner-arrow {
+    padding-top: 8vw;
+  }
+  .c-contact {
+    margin-top: 30px;
+    font-size: 44px;
+  }
+
+  .c-phone {
+    font-size: 40px;
+  }
+
+  .c-mail {
+    font-size: 20px;
+  }
+
+  .logo-media {
+    width: 70px;
+    height: 70px;
+    margin: 40px 25px 25px 20px;
+  }
 }
 
 body {
