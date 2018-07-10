@@ -7,13 +7,12 @@ export default function() {
     {
       src: `${iconProjects}`,
       title: 'Projekty',
-      descr:
-        'możliwość zaprojektowania całego obiektu lub pojedynczych pomieszczeń'
+      descr: `możliwość zaprojektowania całego obiektu lub${'\u00A0'}pojedynczych pomieszczeń`
     },
     {
       src: `${iconVisualisations}`,
       title: 'Wizualizacje',
-      descr: 'w standardzie każdego projektu jak i możliwość osobnego zlecenia'
+      descr: `w standardzie każdego projektu jak i${'\u00A0'}możliwość osobnego zlecenia`
     },
     {
       src: `${iconPlans}`,

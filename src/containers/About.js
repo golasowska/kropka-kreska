@@ -28,7 +28,7 @@ class About extends Component {
             <div className="col-md-12">
               <p className="header-text">O mnie</p>
               <p className="header-text-descr">
-                Otwarta na nowe wyzwania projektowe jako architekt wnętrz,
+                Otwarta na&nbsp;nowe wyzwania projektowe jako architekt wnętrz,
                 fotograf, projektantka mebli chętnie podejmę się każdego
                 nietypowego zadania.
               </p>

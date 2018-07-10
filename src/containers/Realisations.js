@@ -21,9 +21,11 @@ class Realisations extends Component {
     return this.props.projectsList.map(item => {
       return (
         <div key={item.title} className="col-sm-6 col-md-3 text-center">
-          <img className="img-fluid" src={item.src} alt="icon-projects" />
-          <p className="icon-text-header">{item.title}</p>
-          <p className="icon-text-descr">{item.descr}</p>
+          <div className="m-auto">
+            <img className="img-fluid" src={item.src} alt="icon-projects" />
+            <p className="icon-text-header">{item.title}</p>
+            <p className="icon-text-descr">{item.descr}</p>
+          </div>
         </div>
       );
     });

@@ -33,14 +33,13 @@ export default function() {
     {
       src: `${zielonka}`,
       title: 'Zielonka',
-      descr: 'Projekt restauracji wraz z małą biblioteką w przestrzeni parku',
+      descr: `Projekt restauracji wraz z${'\u00A0'}małą biblioteką w${'\u00A0'}przestrzeni parku`,
       photos: [`${zielonka1}`, `${zielonka2}`, `${zielonka3}`, `${zielonka4}`]
     },
     {
       src: `${poznanska}`,
       title: 'Poznańska',
-      descr:
-        'Kompleksowy projekt mieszkania wraz z przebudową kuchni i łazienki',
+      descr: `Kompleksowy projekt mieszkania wraz z${'\u00A0'}przebudową kuchni i${'\u00A0'}łazienki`,
       photos: [
         `${poznanska1}`,
         `${poznanska2}`,
@@ -54,7 +53,7 @@ export default function() {
     {
       src: `${dlugoleka}`,
       title: 'Długołęka',
-      descr: 'Projekt łazienki w domu wolnostojącym pod Wrocławiem',
+      descr: `Projekt łazienki w${'\u00A0'}domu wolnostojącym pod${'\u00A0'}Wrocławiem`,
       photos: [
         `${dlugoleka1}`,
         `${dlugoleka2}`,
@@ -65,7 +64,7 @@ export default function() {
     {
       src: `${bag}`,
       title: 'BAG',
-      descr: 'Dwugondygnacyjny obiekt gastronomiczny ze strefą dzienną i nocną',
+      descr: `Dwukondygnacyjny obiekt gastronomiczny ze${'\u00A0'}strefą dzienną i${'\u00A0'}nocną`,
       photos: [
         `${bag1}`,
         `${bag2}`,

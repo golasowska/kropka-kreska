@@ -183,6 +183,18 @@ body {
   margin-top: 36px;
 }
 
+.projects-thumbs > div {
+  margin-bottom: 30px;
+}
+
+.projects-thumbs > div > div {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-bottom: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+}
+
 /* FOOTER */
 
 .c-contact {
@@ -291,15 +303,6 @@ body {
   }
 
   .projects-thumbs > div {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    margin-bottom: 50px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 258px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .c-contact {
@@ -340,12 +343,11 @@ body {
     padding-top: 15vw;
   }
 
-  .projects-thumbs > div {
-    margin-left: 15px;
-    margin-right: 15px;
+  .projects-thumbs > div > div {
+    width: 258px;
   }
 
-  #realisations div:nth-child(2) {
+  #realisations > div:nth-child(2) {
     display: none;
   }
 }
