@@ -11,7 +11,6 @@ import poznanska3 from '../assets/projects/poznanska/poznanska-xl-3.png';
 import poznanska4 from '../assets/projects/poznanska/poznanska-xl-4.png';
 import poznanska5 from '../assets/projects/poznanska/poznanska-xl-5.png';
 import poznanska6 from '../assets/projects/poznanska/poznanska-xl-6.png';
-import poznanska7 from '../assets/projects/poznanska/poznanska-xl-7.png';
 
 import dlugoleka from '../assets/projects/dlugoleka/dlugoleka-1.png';
 import dlugoleka1 from '../assets/projects/dlugoleka/dlugoleka-xl-1.png';
@@ -46,8 +45,7 @@ export default function() {
         `${poznanska3}`,
         `${poznanska4}`,
         `${poznanska5}`,
-        `${poznanska6}`,
-        `${poznanska7}`
+        `${poznanska6}`
       ]
     },
     {
